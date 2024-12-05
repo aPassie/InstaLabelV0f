@@ -1,4 +1,5 @@
 import React from 'react';
+import loading from '../assets/loading.gif';
 
 const LoadingOverlay = () => {
   return (
@@ -11,7 +12,7 @@ const LoadingOverlay = () => {
       >
         <div className="bg-white rounded-lg p-6 text-center">
           <img 
-            src="/src/assets/loading.gif" 
+            src={loading} 
             alt="Loading animation" 
             className="h-12 w-29 mx-auto mb-4"
           />
