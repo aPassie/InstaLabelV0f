@@ -2,6 +2,7 @@ import React from 'react';
 import FloatingButtons from './FloatingButtons';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './HomePage.css';
+import gifgit from '../assets/gifgit.gif';
 
 const HomePage = () => {
   const getGreeting = () => {
@@ -30,7 +31,7 @@ const HomePage = () => {
       <div className="content">
         <div className="gif-container">
           <img 
-            src="/src/assets/gifgit.gif" 
+            src={gifgit}
             alt="Animation" 
             className="circular-gif"
           />
